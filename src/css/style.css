@@ -1,0 +1,31 @@
+.no-select {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+/* Crop images to size */
+.crop {
+    object-fit: contain;
+}
+
+.background-black {
+    background-color: black;
+}
+
+.background-grey {
+    background-color: lightgray;
+}
+
+.background-nebra {
+    background-color: #0b1026;
+}
+
+/* Add effects to cards on hover */
+.card{
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+}
+
+.card:hover{
+    transform: scale(1.01);
+}
